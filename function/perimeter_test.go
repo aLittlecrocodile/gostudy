@@ -10,6 +10,7 @@ func TestPerimeter(t *testing.T) {
 		t.Errorf("wanted %.2f but got %.2f", wanted, got)
 	}
 }
+
 func TestArea(t *testing.T) {
 	checkArea := func(t *testing.T, shape Shape, want float64) {
 		t.Helper()
