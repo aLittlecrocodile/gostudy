@@ -27,6 +27,6 @@ func TestArea(t *testing.T) {
 
 		}
 
-	}
+	} //
 
 }
